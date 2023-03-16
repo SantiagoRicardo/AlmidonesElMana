@@ -5,12 +5,13 @@ import {
   ShieldCheckIcon,
   TrophyIcon,
   UserGroupIcon,
-  UsersIcon,
+  UsersIcon
 } from "@heroicons/react/24/solid";
 import { scrollIntoViewWithOffset } from "@/utils/dom";
+import type { HeroIcon } from "@/types/hero-icon";
 
 type Picture = {
-  svg: any;
+  svg: HeroIcon;
   projects: string;
   name: string;
   src1: string;
@@ -25,7 +26,7 @@ const pictures: Picture[] = [
     src2: "/Plumber.png",
     svg: UsersIcon,
     projects: "+658",
-    name: "Clientes contentos",
+    name: "Clientes contentos"
   },
   {
     id: "img-2",
@@ -33,32 +34,32 @@ const pictures: Picture[] = [
     src2: "/FurnitureWashing.png",
     svg: UserGroupIcon,
     projects: "+10",
-    name: "Equipos de trabajo",
+    name: "Equipos de trabajo"
   },
   {
-    id: " img-3",
+    id: "img-3",
     src1: "/Blacksmith.png",
     src2: "/Painter.png",
     svg: TrophyIcon,
     projects: "+5",
-    name: "Reconocimentos",
+    name: "Reconocimentos"
   },
   {
-    id: " img-4",
+    id: "img-4",
     src1: "/PolishFloors.png",
     src2: "/CarpetWashing.png",
     svg: RocketLaunchIcon,
     projects: "+769",
-    name: "Proyectos completados",
+    name: "Proyectos completados"
   },
   {
-    id: " img-5",
+    id: "img-5",
     src1: "/WhiteWork.png",
     src2: "/ElectricianPerson.png",
     svg: ShieldCheckIcon,
     projects: "+6",
-    name: "Verificaciones otorgadas",
-  },
+    name: "Verificaciones otorgadas"
+  }
 ];
 
 const Nosotros: FC = () => (
