@@ -15,7 +15,6 @@ const Navbar: FC = () => {
     <>
       <nav className="sticky top-0 z-10 mb-3 w-full bg-white/90 shadow-sm backdrop-blur-sm">
         <div className="flex items-center justify-between px-5 py-3 lg:px-12">
-
           <div className="hidden font-medium text-neutral-500 md:inline-block lg:inline">
             <span className="mr-10"> +57-312-6713165 </span>
             <span className="capitalize"> Cienaga de oro </span>

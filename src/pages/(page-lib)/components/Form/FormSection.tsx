@@ -1,5 +1,5 @@
 import { type FC, useState } from "react";
-import { FaEnvelope, FaMap, FaPhone } from "react-icons/fa";  
+import { FaEnvelope, FaMap, FaPhone } from "react-icons/fa";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { formSchema, type FormSchema } from "@/server/api/routers/form/schemas";

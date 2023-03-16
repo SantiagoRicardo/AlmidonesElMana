@@ -5,7 +5,7 @@ import {
   ShieldCheckIcon,
   TrophyIcon,
   UserGroupIcon,
-  UsersIcon
+  UsersIcon,
 } from "@heroicons/react/24/solid";
 import { scrollIntoViewWithOffset } from "@/utils/dom";
 import type { HeroIcon } from "@/types/hero-icon";
@@ -26,7 +26,7 @@ const pictures: Picture[] = [
     src2: "/Plumber.png",
     svg: UsersIcon,
     projects: "+658",
-    name: "Clientes contentos"
+    name: "Clientes contentos",
   },
   {
     id: "img-2",
@@ -34,7 +34,7 @@ const pictures: Picture[] = [
     src2: "/FurnitureWashing.png",
     svg: UserGroupIcon,
     projects: "+10",
-    name: "Equipos de trabajo"
+    name: "Equipos de trabajo",
   },
   {
     id: "img-3",
@@ -42,7 +42,7 @@ const pictures: Picture[] = [
     src2: "/Painter.png",
     svg: TrophyIcon,
     projects: "+5",
-    name: "Reconocimentos"
+    name: "Reconocimentos",
   },
   {
     id: "img-4",
@@ -50,7 +50,7 @@ const pictures: Picture[] = [
     src2: "/CarpetWashing.png",
     svg: RocketLaunchIcon,
     projects: "+769",
-    name: "Proyectos completados"
+    name: "Proyectos completados",
   },
   {
     id: "img-5",
@@ -58,8 +58,8 @@ const pictures: Picture[] = [
     src2: "/ElectricianPerson.png",
     svg: ShieldCheckIcon,
     projects: "+6",
-    name: "Verificaciones otorgadas"
-  }
+    name: "Verificaciones otorgadas",
+  },
 ];
 
 const Nosotros: FC = () => (
@@ -79,7 +79,6 @@ const Nosotros: FC = () => (
             hogar que le ahorra tiempo y dinero.
           </div>
           <div className="py-10">
-
             <button
               onClick={() => {
                 const form = document.getElementById("form");

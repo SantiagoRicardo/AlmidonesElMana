@@ -6,7 +6,7 @@ const config = {
   semi: true,
   singleQuote: false,
   tabWidth: 2,
-  endOfLine: "lf"
+  endOfLine: "lf",
 };
 
 module.exports = config;

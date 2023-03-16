@@ -46,25 +46,25 @@ const Services: Services[] = [
 const LINKS = [
   {
     name: "Inicio",
-    href: "home"
+    href: "home",
   },
   {
     name: "Nosotros",
-    href: "us"
+    href: "us",
   },
   {
     name: "Servicios",
-    href: "services"
+    href: "services",
   },
   {
     name: "Equipos",
-    href: "equipments"
+    href: "equipments",
   },
   {
     name: " Contáctanos",
-    href: "form"  
-  }
-]
+    href: "form",
+  },
+];
 
 const Footer: FC = () => (
   <section>
@@ -154,9 +154,9 @@ const Footer: FC = () => (
             <h1 className="text-lg font-bold text-white">Enlaces utiles</h1>
             <div className="mt-3 text-base text-slate-500">
               <ol>
-              {LINKS.map((links) => (
+                {LINKS.map((links) => (
                   <li key={links.name} className="mb-4 hover:text-white">
-                  <button
+                    <button
                       onClick={() => {
                         const scroll = document.getElementById(links.href);
                         if (scroll === null) return;

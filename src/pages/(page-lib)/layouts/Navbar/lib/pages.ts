@@ -1,25 +1,24 @@
-
 const PAGES = [
   {
     name: "Inicio",
-    href: "home"
+    href: "home",
   },
   {
     name: "Nosotros",
-    href: "us"
+    href: "us",
   },
   {
     name: "Servicios",
-    href: "services"
+    href: "services",
   },
   {
     name: "Equipos",
-    href: "equipments"
+    href: "equipments",
   },
   {
     name: "Contacto",
-    href: "form"
-  }
+    href: "form",
+  },
 ];
 
 export default PAGES;
