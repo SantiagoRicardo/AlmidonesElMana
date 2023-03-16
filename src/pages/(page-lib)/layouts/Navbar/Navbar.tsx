@@ -28,7 +28,7 @@ const Navbar: FC = () => {
             >
               <Image
                 className="bg-transparent"
-                src="/Logo almidones el mana.svg"
+                src="/svgs/logo.svg"
                 alt="Almidones El Mana"
                 width={200}
                 height={50}
