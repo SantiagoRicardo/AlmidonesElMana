@@ -1,8 +1,13 @@
 {
   "overrides": [
     {
-      "extends": ["plugin:@typescript-eslint/recommended-requiring-type-checking"],
-      "files": ["*.ts", "*.tsx"],
+      "extends": [
+        "plugin:@typescript-eslint/recommended-requiring-type-checking"
+      ],
+      "files": [
+        "*.ts",
+        "*.tsx"
+      ],
       "parserOptions": {
         "project": "tsconfig.json"
       }
@@ -12,10 +17,22 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "plugins": ["@typescript-eslint", "tailwindcss"],
-  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+  "plugins": [
+    "@typescript-eslint",
+    "tailwindcss"
+  ],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended"
+  ],
   "rules": {
-    "@typescript-eslint/consistent-type-imports": "warn",
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      {
+        "prefer": "type-imports",
+        "fixStyle": "inline-type-imports"
+      }
+    ],
     "no-useless-return": "error",
     "no-return-await": "error",
     "tailwindcss/classnames-order": "warn",

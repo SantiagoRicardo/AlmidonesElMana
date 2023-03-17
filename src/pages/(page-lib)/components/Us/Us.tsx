@@ -8,7 +8,7 @@ import {
   UsersIcon,
 } from "@heroicons/react/24/solid";
 import { scrollIntoViewWithOffset } from "@/utils/dom";
-import type { HeroIcon } from "@/types/hero-icon";
+import { type HeroIcon } from "@/types/hero-icon";
 
 type Picture = {
   svg: HeroIcon;
