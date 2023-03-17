@@ -8,9 +8,10 @@ import {
   UsersIcon,
 } from "@heroicons/react/24/solid";
 import { scrollIntoViewWithOffset } from "@/utils/dom";
+import type { HeroIcon } from "@/types/hero-icon";
 
 type Picture = {
-  svg: any;
+  svg: HeroIcon;
   projects: string;
   name: string;
   src1: string;
@@ -36,7 +37,7 @@ const pictures: Picture[] = [
     name: "Equipos de trabajo",
   },
   {
-    id: " img-3",
+    id: "img-3",
     src1: "/Blacksmith.png",
     src2: "/Painter.png",
     svg: TrophyIcon,
@@ -44,7 +45,7 @@ const pictures: Picture[] = [
     name: "Reconocimentos",
   },
   {
-    id: " img-4",
+    id: "img-4",
     src1: "/PolishFloors.png",
     src2: "/CarpetWashing.png",
     svg: RocketLaunchIcon,
@@ -52,7 +53,7 @@ const pictures: Picture[] = [
     name: "Proyectos completados",
   },
   {
-    id: " img-5",
+    id: "img-5",
     src1: "/WhiteWork.png",
     src2: "/ElectricianPerson.png",
     svg: ShieldCheckIcon,
@@ -78,7 +79,6 @@ const Nosotros: FC = () => (
             hogar que le ahorra tiempo y dinero.
           </div>
           <div className="py-10">
-
             <button
               onClick={() => {
                 const form = document.getElementById("form");

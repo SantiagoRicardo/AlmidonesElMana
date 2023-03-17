@@ -55,7 +55,9 @@ const Equipment: FC = () => (
     <div className="justify-center md:flex lg:mx-20">
       <div className="mt-10">
         <div className="text-center">
-          <h2 className="text-center text-lg font-semibold leading-8 text-[#02044a]">Herramientas</h2>
+          <h2 className="text-center text-lg font-semibold leading-8 text-[#02044a]">
+            Herramientas
+          </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             ¡Equipamiento y Mas Servicios!
           </p>

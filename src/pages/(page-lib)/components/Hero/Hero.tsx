@@ -1,16 +1,14 @@
 import { type FC } from "react";
 import Image from "next/image";
-import { scrollIntoViewWithOffset } from "@/utils/dom";
 
 const Hero: FC = () => (
   <section id="home" className="relative">
-    <div id="hero-image" className="relative justify-center bg-[url('.../Sembrado-de-yuca.png')] ">
-      
-      <div className="absolute">
-        <h1>
-          almidones el mana
-        </h1>
-      </div>
+    <div className="absolute inset-0 z-0">
+      <Image src="/images/sembrado-de-yuca.png" fill priority alt="Hero" className="object-cover" />
+    </div>
+
+    <div className="relative z-10 flex h-screen flex-col items-center justify-center">
+      <h1 className="text-5xl font-bold text-white">Hero</h1>
     </div>
   </section>
 );
