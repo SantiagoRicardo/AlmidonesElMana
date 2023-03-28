@@ -12,13 +12,13 @@ const Navbar: FC = () => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-10 grid w-full grid-cols-3 items-center bg-white/90 px-5 py-3 shadow-sm backdrop-blur-sm lg:px-12">
-      <div className="hidden font-medium text-neutral-500 md:inline-block lg:inline">
-        <span className="mr-10"> +57-312-6713165 </span>
-        <span className="capitalize"> Cienaga de oro </span>
+    <nav className="sticky top-0 z-20 flex w-full items-center justify-between bg-white/90 px-5 py-3 shadow-sm backdrop-blur-sm lg:px-12 xl:grid xl:grid-cols-3">
+      <div className="hidden font-medium text-neutral-500 md:inline-block">
+        <span className="mr-10">+57-312-6713165</span>
+        <span className="capitalize">Cienaga de oro</span>
       </div>
 
-      <Link className="justify-self-center text-xl font-bold" href="/">
+      <Link className="hidden justify-self-center 2xl:inline" href="/">
         <Image
           className="bg-transparent"
           src="/svgs/logo.svg"
