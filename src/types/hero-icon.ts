@@ -1,5 +1,5 @@
 import type * as React from "react";
 
-export type HeroIcon = React.ForwardRefExoticComponent<
+export type GameIcons = React.FunctionComponent<
   React.SVGProps<SVGSVGElement> & { title?: string; titleId?: string }
 >;

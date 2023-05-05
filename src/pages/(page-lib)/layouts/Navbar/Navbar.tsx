@@ -18,7 +18,7 @@ const Navbar: FC = () => {
         <span className="capitalize">Cienaga de oro</span>
       </div>
 
-      <Link className="hidden justify-self-center 2xl:inline" href="/">
+      <Link className="justify-self-center 2xl:inline" href="/">
         <Image
           className="bg-transparent"
           src="/svgs/logo.svg"
@@ -54,13 +54,6 @@ const Navbar: FC = () => {
               </button>
             </li>
           ))}
-          <Link
-            className="ml-2 text-neutral-500 hover:text-neutral-800"
-            target="_blank"
-            href="https://drive.google.com/file/d/1DU1KMIuyDcVh6pf1gWAkx0P_TCWKF10U/view?usp=sharing"
-          >
-            Portafolio
-          </Link>
         </ul>
 
         <button
