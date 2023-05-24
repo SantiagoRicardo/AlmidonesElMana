@@ -1,11 +1,12 @@
 import { type FC } from "react";
 import Image from "next/image";
 
+
 const Services: FC = () => (
-  <section id="services" className="mt-32 bg-slate-200 py-24 sm:py-32 lg:py-20">
+  <section id="us" className="mt-32 bg-slate-200 py-24 sm:py-32 lg:py-20">
     <div className="mx-10 md:flex md:justify-around lg:px-8 ">
       <div className="m-10 text-left">
-        <p className="mt-10 font-sans text-6xl font-semibold leading-snug tracking-tight text-gray-900">
+        <p className="mt-5 font-sans text-6xl font-semibold leading-snug tracking-tight text-gray-900">
           ¡Conoce la historia detrás de Almidones El Mana!
         </p>
         <p className="mt-5 max-w-2xl text-left font-sans text-xl leading-10 text-gray-600">
@@ -38,7 +39,7 @@ const Services: FC = () => (
             className="rounded-xl"
             src="/images/SecadoAlmidon.jpg"
             width={720}
-            height={620}
+            height={820}
             alt={"Loading..."}
           />
         </div>

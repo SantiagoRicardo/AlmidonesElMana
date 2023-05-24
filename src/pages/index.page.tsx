@@ -5,6 +5,7 @@ import {
   Product,
   Equipment,
   OurProcesses,
+  Recipes,
 } from "@/pages/(page-lib)/components";
 import { type NextPageWithLayout } from "@/pages/_app.page";
 import Head from "next/head";
@@ -16,6 +17,7 @@ const Home: NextPageWithLayout = () => (
     <Services />
     <Equipment />
     <OurProcesses />
+    <Recipes />
     <Form />
     <Hero />
   </>

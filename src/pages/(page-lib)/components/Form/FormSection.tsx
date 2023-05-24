@@ -12,17 +12,17 @@ const contactLinks = [
   {
     label: "+57-304-202-6189",
     icon: <FaPhone className="mx-3" />,
-    url: "tel:+57-304-202-6189",
+    url: "tel:+57-312-6713165",
   },
   {
-    label: "naranjoexpress27@gmail.com",
+    label: "almidoneselmana@gmail.com",
     icon: <FaEnvelope className="mx-3" />,
     url: "",
   },
   {
-    label: "Montería, Córdoba",
+    label: "Ciénaga de Oro, Córdoba",
     icon: <FaMap className="mx-3" />,
-    url: "https://goo.gl/maps/Hc6nVUBPKF2V24T86",
+    url: "https://goo.gl/maps/WtjF7zL8RFeJ4DdJ7",
   },
 ] as const;
 
@@ -71,8 +71,8 @@ const FormSection: FC = () => {
             <h1 className="mb-4 text-3xl font-bold text-white">Consigue una cotización</h1>
 
             <p className="max-w-lg text-lg leading-8 text-[#abade6]">
-              ¿Tienes preguntas? Tenemos respuestas.
-              <span className="block">Charlemos como viejos amigos.</span>
+              ¡Charlemos y descubre cómo podemos
+              <span className="block">satisfacer tus necesidades de almidón!</span>
             </p>
           </div>
 

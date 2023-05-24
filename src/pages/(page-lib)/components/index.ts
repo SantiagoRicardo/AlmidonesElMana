@@ -5,3 +5,4 @@ export { default as Product } from "./Product";
 export { default as Footer } from "../layouts/Footer";
 export { default as Equipment } from "./Equipment";
 export { default as OurProcesses } from "./OurProcesses";
+export { default as Recipes } from "./Recipes";

@@ -2,7 +2,7 @@ import { type FC } from "react";
 import Image from "next/image";
 
 const Hero: FC = () => (
-  <section id="home" className="relative">
+  <section className="relative">
     <div className="absolute inset-0 z-0">
       <Image
         src="/images/sembrado-de-yuca.png"

@@ -3,12 +3,12 @@ import { type FC } from "react";
 import Image from "next/image";
 
 const OurProcesses: FC = () => (
-  <section id="us" className="mt-10 bg-slate-200 py-24">
+  <section id="production" className="mt-10 bg-slate-200 py-24">
     <div className="m-10 justify-around md:flex lg:px-8 ">
       <div>
         <Image
           className="rounded-xl"
-          src={"/images/sack-yuca.jpg"}
+          src={"/images/proceso-almidon.jpg"}
           alt={"Loading..."}
           width={500}
           height={200}

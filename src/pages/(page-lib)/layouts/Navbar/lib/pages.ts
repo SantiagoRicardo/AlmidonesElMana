@@ -8,16 +8,16 @@ const PAGES = [
     href: "us",
   },
   {
-    name: "Servicios",
-    href: "services",
-  },
-  {
-    name: "Equipos",
+    name: "Equipo",
     href: "equipments",
   },
   {
-    name: "Contacto",
-    href: "form",
+    name: "Producción",
+    href: "production",
+  },
+  {
+    name: "Recetas",
+    href: "recipes",
   },
 ];
 
