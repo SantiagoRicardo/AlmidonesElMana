@@ -14,7 +14,7 @@ const Hero: FC = () => (
     </div>
 
     <div className="relative z-10 flex h-screen flex-col items-center justify-center">
-      <h1 className="max-w-5xl text-center font-sans text-8xl font-medium text-white">
+      <h1 className="max-w-5xl text-center font-sans text-6xl font-medium text-white">
         Descubre el sabor auténtico de la yuca con Almidones El Mana
       </h1>
     </div>

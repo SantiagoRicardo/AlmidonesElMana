@@ -1,6 +1,7 @@
 import { type AppProps } from "next/app";
 import { api } from "@/utils/api";
 import "@/styles/globals.css";
+import "./globals.css";
 import { type ReactElement, type ReactNode } from "react";
 import { type NextPage } from "next";
 

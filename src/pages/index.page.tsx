@@ -19,7 +19,6 @@ const Home: NextPageWithLayout = () => (
     <OurProcesses />
     <Recipes />
     <Form />
-    <Hero />
   </>
 );
 
@@ -29,7 +28,7 @@ Home.getLayout = (page) => (
       <title>Almidones El Mana</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="content" />
-      <link rel="icon" type="image/svg" href="/Naranjo-Express.svg" />
+      <link rel="icon" type="image/svg" href="/Yuca.png" />
     </Head>
 
     <Navbar />
