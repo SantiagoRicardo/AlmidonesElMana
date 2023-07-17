@@ -28,7 +28,7 @@ Home.getLayout = (page) => (
       <title>Almidones El Mana</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="description" content="content" />
-      <link rel="icon" type="image/svg" href="/Yuca.png" />
+      <link rel="icon" type="image/svg" href="/images/Yuca.png" />
     </Head>
 
     <Navbar />

@@ -15,10 +15,10 @@ const Recipes: FC = () => {
       <div className="justify-center md:flex lg:mx-20">
         <div className="mt-10">
           <div className="text-center">
-            <h2 className="m-10 text-left font-sans text-lg font-semibold capitalize leading-8 text-[#02044a] md:text-center">
-              Explora Nuevas Horizontes Culinarios
+            <h2 className="mx-10 text-left font-sans text-lg font-semibold capitalize leading-8 text-[#02044a] md:text-center">
+              Explora Nuevos Horizontes Culinarios
             </h2>
-            <p className="m-10 text-left font-sans text-4xl font-semibold tracking-tight text-gray-900 md:text-6xl">
+            <p className="mx-10 mt-2 text-left font-sans text-4xl font-semibold tracking-tight text-gray-900 md:text-6xl">
               Transforma tus recetas con el almidón de yuca
             </p>
             <p className="m-10 mt-6 max-w-5xl text-left text-xl leading-8 text-gray-600 md:mx-auto md:text-center">

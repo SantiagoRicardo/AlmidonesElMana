@@ -1,5 +1,7 @@
 import { type FC } from "react";
-import { NavbarRecipes } from "../(page-lib)/layouts";
+import { Footer, NavbarRecipes } from "../(page-lib)/layouts";
+
+
 
 const BlogPost: FC = () => {
   return (
@@ -93,6 +95,7 @@ const BlogPost: FC = () => {
           </li>
         </ul>
       </div>
+      <Footer />
     </>
   );
 };

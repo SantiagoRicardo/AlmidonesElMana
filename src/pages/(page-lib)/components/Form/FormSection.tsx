@@ -10,7 +10,7 @@ import { env } from "@/env.mjs";
 
 const contactLinks = [
   {
-    label: "+57-304-202-6189",
+    label: "+57-312-671-3165",
     icon: <FaPhone className="mx-3" />,
     url: "tel:+57-312-6713165",
   },
