@@ -23,7 +23,7 @@ const Navbar: FC = () => {
           <Link className="justify-self-center 2xl:inline" href="/">
             <Image
               className="bg-transparent"
-              src="/svgs/logo.svg"
+              src="/svgs/LogoAlmidonesElMana.svg"
               alt="Almidones El Mana"
               width={200}
               height={50}

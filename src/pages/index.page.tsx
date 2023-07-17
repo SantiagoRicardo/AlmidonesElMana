@@ -1,6 +1,6 @@
 import {
   Form,
-  Hero,
+  //Hero,
   Services,
   Product,
   Equipment,
