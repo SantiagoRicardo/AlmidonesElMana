@@ -6,9 +6,9 @@ import { useRouter } from "next/router";
 const OurProcesses: FC = () => {
   const router = useRouter();
   const handleProcess = () => {
-    void router.push("/process");
+    void router.push("/Process");
   };
-  
+
   return (
     <section id="production" className="mt-10 bg-slate-200 py-24">
       <div className="m-5 justify-around md:m-10 md:flex lg:px-8 ">
