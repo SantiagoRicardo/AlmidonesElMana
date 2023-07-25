@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 const Services: FC = () => {
   const router = useRouter();
   const handleAbout = () => {
-    void router.push("/AboutUs");
+    void router.push("/about-us");
   };
   return (
     <section id="us" className="mt-32 bg-slate-200 py-24 sm:py-32 lg:py-20">

@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const Nosotros: FC = () => {
   const router = useRouter();
   const handleBlog = () => {
-    void router.push("/BlogPost");
+    void router.push("/blog-post");
   };
 
   return (

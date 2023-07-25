@@ -1,8 +1,8 @@
 import { type FC } from "react";
 import { useRouter } from "next/router";
-import { RecipesImages } from "../(page-lib)/components/Recipes/lib";
+import { RecipesImages } from "../../(page-lib)/components/Recipes/lib";
 import Image from "next/image";
-import { Footer, NavbarRecipes } from "../(page-lib)/layouts";
+import { Footer, NavbarRecipes } from "../../(page-lib)/layouts";
 //import { BiTime, BiChevronsRight, BiFoodMenu } from "react-icons/bi";
 import { FaHotjar, FaUser, FaCheck } from "react-icons/fa";
 import { MdWatchLater } from "react-icons/md";

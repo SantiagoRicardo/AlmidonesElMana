@@ -7,7 +7,7 @@ const Recipes: FC = () => {
   const router = useRouter();
 
   const handleRecipeClick = (id: string) => {
-    void router.push(`/${id}`);
+    void router.push(`/recipes/${id}`);
   };
 
   return (
