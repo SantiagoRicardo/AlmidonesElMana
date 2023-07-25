@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const OurProcesses: FC = () => {
   const router = useRouter();
   const handleProcess = () => {
-    void router.push("/Process");
+    void router.push("/process");
   };
 
   return (
