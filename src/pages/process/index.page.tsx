@@ -2,7 +2,6 @@ import { type FC } from "react";
 import Image from "next/image";
 import data from "./lib/data.json";
 import { NavbarRecipes } from "../(page-lib)/layouts";
-import cs from "@/utils/cs";
 
 const Process: FC = () => {
   return (
@@ -13,13 +12,7 @@ const Process: FC = () => {
         <h1 className="text-center text-4xl font-bold">Proceso de producción</h1>
         <div className="mt-8 flex flex-col">
           {data.map((paso, index) => (
-            <div
-              key={index}
-              className={cs(
-                "flex flex-wrap items-center p-4",
-                index % 2 !== 0 && "flex-row-reverse"
-              )}
-            >
+            <div key={index} className="flex flex-wrap items-center p-4 even:flex-row-reverse">
               <Image
                 src={paso.imagen}
                 alt={paso.titulo}
