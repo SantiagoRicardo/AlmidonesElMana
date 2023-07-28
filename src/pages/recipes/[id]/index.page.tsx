@@ -1,12 +1,12 @@
 import { type FC } from "react";
 import { useRouter } from "next/router";
-import { RecipesImages } from "../../(page-lib)/components/Recipes/lib";
 import Image from "next/image";
 import { Footer, NavbarRecipes } from "../../(page-lib)/layouts";
-//import { BiTime, BiChevronsRight, BiFoodMenu } from "react-icons/bi";
 import { FaHotjar, FaUser, FaCheck } from "react-icons/fa";
 import { MdWatchLater } from "react-icons/md";
 import { HiAdjustmentsHorizontal } from "react-icons/hi2";
+import type * as Next from "next";
+import { recipes } from "@/lib/recipes";
 
 type Recipe = {
   id: string;
@@ -26,13 +26,28 @@ type Recipe = {
   servings: string;
 };
 
-const RecipePage: FC = () => {
-  const router = useRouter();
-  const { id } = router.query;
+export const getStaticPaths: Next.GetStaticPaths = () => {
+  const paths = recipes.map((recipe) => ({
+    params: { id: recipe.id },
+  }));
 
-  const recipe: Recipe | undefined = RecipesImages.find(
-    (recipe: Recipe) => recipe.id === id
-  ) as Recipe;
+  return { paths, fallback: false };
+};
+
+export const getStaticProps = ({ params }: Next.GetStaticPropsContext<{ id: string }>) => {
+  const recipe = recipes.find((recipe: Recipe) => recipe.id === params?.id);
+
+  if (recipe === undefined) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return { props: { recipe } };
+};
+
+const RecipePage: FC<Next.InferGetStaticPropsType<typeof getStaticProps>> = ({ recipe }) => {
+  const router = useRouter();
 
   if (!recipe) {
     // Si no se encuentra la receta, redirige a la página principal

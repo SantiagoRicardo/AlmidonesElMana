@@ -1,7 +1,7 @@
 import { type FC } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { RecipesImages } from "./lib";
+import { recipes } from "@/lib/recipes";
 
 const Recipes: FC = () => {
   const router = useRouter();
@@ -29,7 +29,7 @@ const Recipes: FC = () => {
             </p>
 
             <div className="m-5 justify-center md:flex">
-              {RecipesImages.map((recipes) => (
+              {recipes.map((recipes) => (
                 <div
                   key={recipes.id}
                   className="m-5 max-w-sm overflow-hidden rounded shadow-lg transition delay-75 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:cursor-pointer"

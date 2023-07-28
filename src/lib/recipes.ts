@@ -1,4 +1,4 @@
-interface Recipe {
+export type Recipe = {
   id: string;
   title: string;
   image: {
@@ -14,9 +14,9 @@ interface Recipe {
   instructions: string[];
   difficulty: string;
   servings: string;
-}
+};
 
-const RecipesImages: Recipe[] = [
+export const recipes = [
   {
     id: "Pan-de-bono",
     title: "Pan de bono",
@@ -149,5 +149,4 @@ const RecipesImages: Recipe[] = [
     difficulty: "Medio",
     servings: "15 porciones",
   },
-];
-export default RecipesImages;
+] satisfies Recipe[];
